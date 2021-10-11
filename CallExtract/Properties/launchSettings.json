@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "CallExtract": {
+      "commandName": "Project",
+      "commandLineArgs": "-q \"sip.to.addr contains 2042877433 || sip.from.addr contains 2042877433\" -o C:\\Users\\Dan\\Desktop\\extracted.pcap C:\\Users\\Dan\\Desktop\\CallExtract\\test.pcap"
+    }
+  }
+}

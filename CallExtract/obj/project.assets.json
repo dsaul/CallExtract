@@ -1,0 +1,131 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "Mono.Options/6.12.0.148": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Mono.Options.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Mono.Options.dll": {}
+        }
+      },
+      "CallExtract.NET/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/CallExtract.NET.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CallExtract.NET.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Mono.Options/6.12.0.148": {
+      "sha512": "kf6bdXnP4IzqIp4bJ1YKPI3/PAcOV6qm4mznChJ3c92zHQUXTWJSp0+h+Cfcii0O6m/EgW7KA+tbCiB2al0DDA==",
+      "type": "package",
+      "path": "mono.options/6.12.0.148",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "THIRD-PARTY-NOTICES.txt",
+        "lib/net40-client/Mono.Options.dll",
+        "lib/net40-client/Mono.Options.pdb",
+        "lib/net40/Mono.Options.dll",
+        "lib/net40/Mono.Options.pdb",
+        "lib/netstandard1.3/Mono.Options.dll",
+        "lib/netstandard1.3/Mono.Options.pdb",
+        "lib/netstandard2.0/Mono.Options.dll",
+        "lib/netstandard2.0/Mono.Options.pdb",
+        "mono.options.6.12.0.148.nupkg.sha512",
+        "mono.options.nuspec"
+      ]
+    },
+    "CallExtract.NET/1.0.0": {
+      "type": "project",
+      "path": "../CallExtract.NET/CallExtract.NET.csproj",
+      "msbuildProject": "../CallExtract.NET/CallExtract.NET.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "CallExtract.NET >= 1.0.0",
+      "Mono.Options >= 6.12.0.148"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Dan\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Dan\\Desktop\\CallExtract\\CallExtract\\CallExtract.csproj",
+      "projectName": "CallExtract",
+      "projectPath": "C:\\Users\\Dan\\Desktop\\CallExtract\\CallExtract\\CallExtract.csproj",
+      "packagesPath": "C:\\Users\\Dan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Dan\\Desktop\\CallExtract\\CallExtract\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Dan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "C:\\Users\\Dan\\Desktop\\CallExtract\\CallExtract.NET\\CallExtract.NET.csproj": {
+              "projectPath": "C:\\Users\\Dan\\Desktop\\CallExtract\\CallExtract.NET\\CallExtract.NET.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "dependencies": {
+          "Mono.Options": {
+            "target": "Package",
+            "version": "[6.12.0.148, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
