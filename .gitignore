@@ -2,3 +2,6 @@
 /CallExtract/obj
 /CallExtract.NET/bin
 /CallExtract.NET/obj
+/CallExtractGUI/bin
+/CallExtractGUI/obj
+/.vs
