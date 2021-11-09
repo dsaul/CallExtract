@@ -39,7 +39,7 @@ You are having a long term issue with some phone calls having issues. Unfortunat
 .\CallExtract.exe --output=C:\Users\dan\Desktop\extracted.pcap --did=2045551234 [pcap1path] [pcap2path] etc
 ~~~
 
-7. Assuming the input pcaps provided were properly formatted, you will have a file on your desktop that contains just the specific files you were looking for.
+7. Assuming the input pcaps provided were properly formatted, you will have a file on your desktop that contains just the specific phone calls you were looking for.
 
 
 Enjoy!
