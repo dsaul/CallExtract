@@ -10,12 +10,14 @@ This tool automates the terminal version of Wireshark known as tshark to extract
 
 This has been tested with Debian.
 
+* Install dotnet as per https://docs.microsoft.com/en-us/dotnet/core/install/linux-debian
 * apt install tshark tcpdump
 
 ## Prerequisites (Windows 10)
 
 * You must install the latest version of Wireshark from https://www.wireshark.org/#download You must make sure that the tshark executable is located at "C:\Program Files\Wireshark\tshark.exe" and the mergecap executable is located at "C:\Program Files\Wireshark\mergecap.exe". You can overwrite this by setting the environment variables EXECUTABLE_PATH_TSHARK and EXECUTABLE_PATH_MERGECAP .
 * Install a Windows 10 compatible version of WinDump, I used this one: https://github.com/hsluoyz/WinDump/releases/tag/v0.3 You must make sure that the WinDump.exe file is located at "C:\Program Files\WinDump-for-Npcap-0.3\x64\WinDump.exe". You can overwrite this by setting the environment variable EXECUTABLE_TCPDUMP_PATH .
+* Install the dotnet runtime https://dotnet.microsoft.com/download/dotnet/thank-you/runtime-desktop-5.0.12-windows-x64-installer
 
 ## Example use case: 
 
